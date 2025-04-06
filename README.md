@@ -75,10 +75,9 @@ systemctl --now enable ufw.service
 ufw enable
 ```
 
----
-
 Con esto, te aseguras de que UFW está protegiendo el sistema de manera adecuada. 
 
+---
 
 ![](ANEXOS/Pasted%20image%2020250402233128.png)
 ![](ANEXOS/Pasted%20image%2020250402233843.png)
@@ -120,7 +119,7 @@ Si `/tmp` no tiene una limitación de tamaño, un atacante podría llenar el dis
 
 Una vez hecho vemos que se han arreglado varios fallos
 
-
+---
 
 ![](ANEXOS/Pasted%20image%2020250402235608.png)
 
