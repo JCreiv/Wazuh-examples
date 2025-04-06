@@ -20,7 +20,7 @@ Una vez ejecutado el comando ``curl -sO https://packages.wazuh.com/4.11/wazuh-in
 
 ![](ANEXOS/Pasted%20image%2020250402224626.png)
 
-Ventana principal de gestión en wazuh
+### Ventana principal de gestión en wazuh
 
 ![](ANEXOS/Pasted%20image%2020250402222541.png)
 
@@ -30,16 +30,16 @@ Ventana de adición de un nuevo agente
 ![](ANEXOS/Pasted%20image%2020250402225644.png)
 
 
-Una vez añadido el agente podemos ver el panel de control de cada uno
+### Una vez añadido el agente podemos ver el panel de control de cada uno
 
 
 ![](ANEXOS/Pasted%20image%2020250402230345.png)
 
-Nos dice las posibles vulnerabilidades que ha encontrado en el sistema
+### Nos dice las posibles vulnerabilidades que ha encontrado en el sistema
 
 ![](ANEXOS/Pasted%20image%2020250402233649.png)
 
-Tiene un escáner SCA que nos da recomendaciones de seguridad
+### Tiene un escáner SCA que nos da recomendaciones de seguridad
 
 ![](ANEXOS/Pasted%20image%2020250402233513.png)
 
