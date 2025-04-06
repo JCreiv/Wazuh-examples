@@ -56,13 +56,13 @@ El servicio **UFW (Uncomplicated Firewall)** debe estar **activo** y **habilitad
  **Solución paso a paso**
 
 
-2️⃣ **Activar y habilitar UFW para que se ejecute en cada arranque**
+ **Activar y habilitar UFW para que se ejecute en cada arranque**
 
 ```bash
 systemctl --now enable ufw.service
 ```
 
-3️⃣ **Habilitar el firewall**
+ **Habilitar el firewall**
 
 ```bash
 ufw enable
