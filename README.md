@@ -161,3 +161,25 @@ La configuración del **File Integrity Monitoring (FIM)** se realiza en el agent
 ![](ANEXOS/Pasted%20image%2020250403143806.png)
 
 Una vez hecho nos avisa si hay modificaciones en el archivo o en el directorio especificado
+
+
+## Detección de IDS a través de los logs de Snort
+
+La combinación de **Wazuh** con **Snort** permite mejorar la seguridad de nuestros sistemas, ya que además de los registros proporcionados por Wazuh, podemos obtener y analizar los logs de Snort para detectar actividades sospechosas en la red.
+
+### Configuración de la Integración
+
+Wazuh permite la integración con Snort y otras herramientas de seguridad, tal como se describe en su guía oficial. Esta configuración puede realizarse siguiendo estos pasos generales teniendo en cuenta siempre que la configuración se hace en el agente no en el servidor de monitoreo:
+
+
+![](ANEXOS/Pasted%20image%2020250404155443.png)
+![](ANEXOS/Pasted%20image%2020250404154426.png)
+
+![](ANEXOS/Pasted%20image%2020250404160208.png)
+
+![](ANEXOS/Pasted%20image%2020250404161149.png)
+
+![](ANEXOS/Pasted%20image%2020250404161316.png)
+![](ANEXOS/Pasted%20image%2020250404161420.png)
+
+Podemos observar que tanto como la regla que le hemos añadido de pings, como posibles escaneos nmap lo detecta, y podriamos modificar el nivel de la regla dependiendo de su potencial riesgo
