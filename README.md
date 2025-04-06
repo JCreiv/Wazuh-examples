@@ -1,7 +1,4 @@
 
-## Wazuh capturas
-
-
 ## Wazuh: Plataforma de Seguridad Open Source
 
 
